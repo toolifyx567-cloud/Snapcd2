@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: snapchat-downloader
+    env: docker
+    repo: https://github.com/yourusername/your-repo
+    plan: free
+    envVars:
+      - key: ADMIN_PASSWORD
+        value: your-secure-password
